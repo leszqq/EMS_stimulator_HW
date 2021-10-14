@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TVS_diode
+D generic tvs diode symbol
+K TVS diode ESD
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,1732 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\studies\bsc-thesis\project\hardware\EMS_stimulator\EMS_stimulator.sch</source>
+    <date>02/10/2021 17:16:08</date>
+    <tool>Eeschema (5.1.8)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>EMS stimulator</title>
+        <company>Wiktor Lechowicz</company>
+        <rev>0.1</rev>
+        <date>2021-09-19</date>
+        <source>EMS_stimulator.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C2">
+      <value>4u7</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL05A475MP5NRNC?qs=sGAEpiMZZMvsSlwiRhF8qqQ8hxcT1iMueb02L7%2FgBVhxSDMJ4tGQQQ%3D%3D</datasheet>
+      <fields>
+        <field name="Comment">10V</field>
+        <field name="manf#">CL05A475MP5NRNC</field>
+      </fields>
+      <libsource lib="WL_passive" part="capacitor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614A9D08</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>4u7</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL05A475MP5NRNC?qs=sGAEpiMZZMvsSlwiRhF8qqQ8hxcT1iMueb02L7%2FgBVhxSDMJ4tGQQQ%3D%3D</datasheet>
+      <fields>
+        <field name="Comment">10V</field>
+        <field name="manf#">CL05A475MP5NRNC</field>
+      </fields>
+      <libsource lib="WL_passive" part="capacitor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614B11DA</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>TVS</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/Littelfuse/SMAJ50A?qs=2VFNtWizgicfetZVA4gWHA%3D%3D</datasheet>
+      <fields>
+        <field name="Comment">5V</field>
+        <field name="manf#">SMAJ5.0A</field>
+      </fields>
+      <libsource lib="WL_diodes" part="TVS_diode" description="generic tvs diode symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614B2232</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>USB_B_micro</value>
+      <libsource lib="WL_connectors" part="USB_B_micro" description="micro usb type b socket"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614BCFD3</tstamp>
+    </comp>
+    <comp ref="BAT1">
+      <value>LiPo 1000mAh</value>
+      <datasheet>https://www.tme.eu/en/details/accu-lp703048_cl/rechargeable-batteries/cellevia-batteries/</datasheet>
+      <fields>
+        <field name="manf#">ACCU-LP703048/CL</field>
+      </fields>
+      <libsource lib="WL_power" part="Battery" description="Battery symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614D1585</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>1u</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/YAGEO/CC0402KRX5R6BB105?qs=sGAEpiMZZMvsSlwiRhF8qsQT4vDixbP6LDNKmQLX9kk%3D</datasheet>
+      <fields>
+        <field name="Comment">10V</field>
+        <field name="manf#">CC0402KRX5R6BB105</field>
+      </fields>
+      <libsource lib="WL_passive" part="capacitor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614E3AFB</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>1u</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/YAGEO/CC0402KRX5R6BB105?qs=sGAEpiMZZMvsSlwiRhF8qsQT4vDixbP6LDNKmQLX9kk%3D</datasheet>
+      <fields>
+        <field name="Comment">10V</field>
+        <field name="manf#">CC0402KRX5R6BB105</field>
+      </fields>
+      <libsource lib="WL_passive" part="capacitor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614F5E22</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>1u</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/YAGEO/CC0402KRX5R6BB105?qs=sGAEpiMZZMvsSlwiRhF8qsQT4vDixbP6LDNKmQLX9kk%3D</datasheet>
+      <fields>
+        <field name="Comment">10V</field>
+        <field name="manf#">CC0402KRX5R6BB105</field>
+      </fields>
+      <libsource lib="WL_passive" part="capacitor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614FD9CD</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>1u</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/YAGEO/CC0402KRX5R6BB105?qs=sGAEpiMZZMvsSlwiRhF8qsQT4vDixbP6LDNKmQLX9kk%3D</datasheet>
+      <fields>
+        <field name="Comment">10V</field>
+        <field name="manf#">CC0402KRX5R6BB105</field>
+      </fields>
+      <libsource lib="WL_passive" part="capacitor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614FDA01</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>4u7</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL05A475MP5NRNC?qs=sGAEpiMZZMvsSlwiRhF8qqQ8hxcT1iMueb02L7%2FgBVhxSDMJ4tGQQQ%3D%3D</datasheet>
+      <fields>
+        <field name="Comment">10V</field>
+        <field name="manf#">CL05A475MP5NRNC</field>
+      </fields>
+      <libsource lib="WL_passive" part="capacitor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615111C4</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>4u7</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL05A475MP5NRNC?qs=sGAEpiMZZMvsSlwiRhF8qqQ8hxcT1iMueb02L7%2FgBVhxSDMJ4tGQQQ%3D%3D</datasheet>
+      <fields>
+        <field name="Comment">10V</field>
+        <field name="manf#">CL05A475MP5NRNC</field>
+      </fields>
+      <libsource lib="WL_passive" part="capacitor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6151175B</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>47</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/YAGEO/RC0402FR-7W47RL?qs=sGAEpiMZZMvdGkrng054tz1y1XEHv7sNjTUZn5JQhJa3p4Fh43hdWA%3D%3D</datasheet>
+      <fields>
+        <field name="Comment">5%</field>
+        <field name="manf#">RC0402FR-7W47RL</field>
+      </fields>
+      <libsource lib="WL_passive" part="resistor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6153A317</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>220u</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/EPCOS-TDK/B82477P4224M000?qs=x3Z3Taiycdv9vYGSpH%2F38w%3D%3D</datasheet>
+      <fields>
+        <field name="manf#">B82477P4224M000</field>
+      </fields>
+      <libsource lib="WL_passive" part="inductor" description="inductor, coil"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614D0C7C</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1A,600mV</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/Vishay-General-Semiconductor/V1FM10-M3-H?qs=F5EMLAvA7ICTFn%2Fm9xQ31w%3D%3D</datasheet>
+      <fields>
+        <field name="manf#">V1FM10-M3/H</field>
+      </fields>
+      <libsource lib="WL_diodes" part="Schottky_diode" description="Schottky diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614D3746</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>6u8</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/Panasonic/100SXV6R8M?qs=sGAEpiMZZMvwFf0viD3Y3fHxNcSaiftwYCmqfZOR3uSj6oKOC5TlCA%3D%3D</datasheet>
+      <fields>
+        <field name="manf#">100SXV6R8M</field>
+      </fields>
+      <libsource lib="WL_passive" part="capacitor_polarised" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614DFCAE</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>1u8</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/Nichicon/UUX2G1R8MNL1GS?qs=aoAypCcaRa%252BbjGZsg5JvlA%3D%3D</datasheet>
+      <fields>
+        <field name="manf#">UUX2G1R8MNL1GS</field>
+      </fields>
+      <libsource lib="WL_passive" part="capacitor_polarised" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614E0CD9</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>PNP_BEC</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/Micro-Commercial-Components-MCC/MMBT5401HE3-TP?qs=HBWAp0VN4RjnaMfqlbDplQ%3D%3D</datasheet>
+      <fields>
+        <field name="manf#">MMBT5401HE3-TP</field>
+      </fields>
+      <libsource lib="WL_transistors" part="PNP_BEC" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6150BBCC</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>47</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/YAGEO/RC0402FR-7W47RL?qs=sGAEpiMZZMvdGkrng054tz1y1XEHv7sNjTUZn5JQhJa3p4Fh43hdWA%3D%3D</datasheet>
+      <fields>
+        <field name="Comment">5%</field>
+        <field name="manf#">RC0402FR-7W47RL</field>
+      </fields>
+      <libsource lib="WL_passive" part="resistor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61510167</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>47</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/YAGEO/RC0402FR-7W47RL?qs=sGAEpiMZZMvdGkrng054tz1y1XEHv7sNjTUZn5JQhJa3p4Fh43hdWA%3D%3D</datasheet>
+      <fields>
+        <field name="Comment">5%</field>
+        <field name="manf#">RC0402FR-7W47RL</field>
+      </fields>
+      <libsource lib="WL_passive" part="resistor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6151C153</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>NMOS</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/ROHM-Semiconductor/RQ5P010SNTL?qs=%2Fha2pyFadujl6c5cmfQVSoNlAumkc%2FXAJ2dNFA4j1QU%3D</datasheet>
+      <fields>
+        <field name="manf#">RQ5P010SNTL</field>
+      </fields>
+      <libsource lib="WL_transistors" part="NMOS_GSD" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6154E249</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>47</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/YAGEO/RC0402FR-7W47RL?qs=sGAEpiMZZMvdGkrng054tz1y1XEHv7sNjTUZn5JQhJa3p4Fh43hdWA%3D%3D</datasheet>
+      <fields>
+        <field name="Comment">5%</field>
+        <field name="manf#">RC0402FR-7W47RL</field>
+      </fields>
+      <libsource lib="WL_passive" part="resistor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61558F4E</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>47</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/YAGEO/RC0402FR-7W47RL?qs=sGAEpiMZZMvdGkrng054tz1y1XEHv7sNjTUZn5JQhJa3p4Fh43hdWA%3D%3D</datasheet>
+      <fields>
+        <field name="Comment">5%</field>
+        <field name="manf#">RC0402FR-7W47RL</field>
+      </fields>
+      <libsource lib="WL_passive" part="resistor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61573133</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>2k2</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/YAGEO/RC0402FR-072K2P?qs=sGAEpiMZZMvdGkrng054tzomC5y8M3A2M9lgQ11uHoIsULreNCr%2FiQ%3D%3D</datasheet>
+      <fields>
+        <field name="Comment">1%</field>
+        <field name="manf#">RC0402FR-072K2P</field>
+      </fields>
+      <libsource lib="WL_passive" part="resistor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6157EBDE</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>2k2</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/YAGEO/RC0402FR-072K2P?qs=sGAEpiMZZMvdGkrng054tzomC5y8M3A2M9lgQ11uHoIsULreNCr%2FiQ%3D%3D</datasheet>
+      <fields>
+        <field name="Comment">1%</field>
+        <field name="manf#">RC0402FR-072K2P</field>
+      </fields>
+      <libsource lib="WL_passive" part="resistor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6158795E</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>47</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/YAGEO/RC0402FR-7W47RL?qs=sGAEpiMZZMvdGkrng054tz1y1XEHv7sNjTUZn5JQhJa3p4Fh43hdWA%3D%3D</datasheet>
+      <fields>
+        <field name="Comment">5%</field>
+        <field name="manf#">RC0402FR-7W47RL</field>
+      </fields>
+      <libsource lib="WL_passive" part="resistor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615A867F</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>1u</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/YAGEO/CC0402KRX5R6BB105?qs=sGAEpiMZZMvsSlwiRhF8qsQT4vDixbP6LDNKmQLX9kk%3D</datasheet>
+      <fields>
+        <field name="Comment">10V</field>
+        <field name="manf#">CC0402KRX5R6BB105</field>
+      </fields>
+      <libsource lib="WL_passive" part="capacitor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615DB0C9</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>330K</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/YAGEO/RC0402FR-07330KL?qs=sGAEpiMZZMvdGkrng054t3pr%252BPE%2FADjswnLf4DA4o0M%3D</datasheet>
+      <fields>
+        <field name="manf#">RC0402FR-07330KL</field>
+      </fields>
+      <libsource lib="WL_passive" part="resistor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615EF027</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>330K</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/YAGEO/RC0402FR-07330KL?qs=sGAEpiMZZMvdGkrng054t3pr%252BPE%2FADjswnLf4DA4o0M%3D</datasheet>
+      <fields>
+        <field name="manf#">RC0402FR-07330KL</field>
+      </fields>
+      <libsource lib="WL_passive" part="resistor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61642B3A</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>330K</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/YAGEO/RC0402FR-07330KL?qs=sGAEpiMZZMvdGkrng054t3pr%252BPE%2FADjswnLf4DA4o0M%3D</datasheet>
+      <fields>
+        <field name="manf#">RC0402FR-07330KL</field>
+      </fields>
+      <libsource lib="WL_passive" part="resistor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6166EA97</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>10n</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/Vishay-Vitramon/VJ0402Y103JXQCW1BC?qs=sGAEpiMZZMvsSlwiRhF8qubrlVKnH%252Bp44oGn7QQIqls%3D</datasheet>
+      <fields>
+        <field name="Comment">1%</field>
+        <field name="manf#">VJ0402Y103JXQCW1BC</field>
+      </fields>
+      <libsource lib="WL_passive" part="capacitor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61568248</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>100n</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/YAGEO/CC0402KRX7R6BB104?qs=sGAEpiMZZMvsSlwiRhF8qj9NgEuXmwzvPrfkKaMreYc%3D</datasheet>
+      <fields>
+        <field name="Comment">10V</field>
+        <field name="manf#">CC0402KRX7R6BB104</field>
+      </fields>
+      <libsource lib="WL_passive" part="capacitor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615B9DE9</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>100n</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/YAGEO/CC0402KRX7R6BB104?qs=sGAEpiMZZMvsSlwiRhF8qj9NgEuXmwzvPrfkKaMreYc%3D</datasheet>
+      <fields>
+        <field name="Comment">10V</field>
+        <field name="manf#">CC0402KRX7R6BB104</field>
+      </fields>
+      <libsource lib="WL_passive" part="capacitor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615E30C3</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>TVS</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/Littelfuse/SMF85A?qs=sGAEpiMZZMsItbzKdwyIexOeqgdNqyv4BDhLH8CgT1g5S1ncHBtqMA%3D%3D</datasheet>
+      <fields>
+        <field name="Comment">85V</field>
+        <field name="manf#">SMF85A</field>
+      </fields>
+      <libsource lib="WL_diodes" part="TVS_diode" description="generic tvs diode symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61654A42</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>TVS</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/Littelfuse/SMF85A?qs=sGAEpiMZZMsItbzKdwyIexOeqgdNqyv4BDhLH8CgT1g5S1ncHBtqMA%3D%3D</datasheet>
+      <fields>
+        <field name="Comment">85V</field>
+        <field name="manf#">SMF85A</field>
+      </fields>
+      <libsource lib="WL_diodes" part="TVS_diode" description="generic tvs diode symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6167B6FD</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>banana_plug</value>
+      <datasheet>https://www.tme.eu/pl/details/gc2010-m/wtyki-bananowe-2mm/amass/</datasheet>
+      <fields>
+        <field name="manf#">GC2010-M</field>
+      </fields>
+      <libsource lib="WL_connectors" part="conn_p_1x1" description="single plug connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6167D8AD</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>banana_plug</value>
+      <datasheet>https://www.tme.eu/pl/details/gc2010-m/wtyki-bananowe-2mm/amass/</datasheet>
+      <fields>
+        <field name="manf#">GC2010-M</field>
+      </fields>
+      <libsource lib="WL_connectors" part="conn_p_1x1" description="single plug connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61689E1F</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>330K</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/YAGEO/RC0402FR-07330KL?qs=sGAEpiMZZMvdGkrng054t3pr%252BPE%2FADjswnLf4DA4o0M%3D</datasheet>
+      <fields>
+        <field name="manf#">RC0402FR-07330KL</field>
+      </fields>
+      <libsource lib="WL_passive" part="resistor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616C258F</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>100n</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/YAGEO/CC0402KRX7R6BB104?qs=sGAEpiMZZMvsSlwiRhF8qj9NgEuXmwzvPrfkKaMreYc%3D</datasheet>
+      <fields>
+        <field name="Comment">10V</field>
+        <field name="manf#">CC0402KRX7R6BB104</field>
+      </fields>
+      <libsource lib="WL_passive" part="capacitor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616E4E94</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>1M</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/YAGEO/RC0402FR-101ML?qs=sGAEpiMZZMvdGkrng054tz1y1XEHv7sN4rkwU%2FSnxODb%252BSE29wBVoA%3D%3D</datasheet>
+      <fields>
+        <field name="Comment">1%</field>
+        <field name="manf#">RC0402FR-101ML</field>
+      </fields>
+      <libsource lib="WL_passive" part="resistor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617C6A70</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>330K</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/YAGEO/RC0402FR-07330KL?qs=sGAEpiMZZMvdGkrng054t3pr%252BPE%2FADjswnLf4DA4o0M%3D</datasheet>
+      <fields>
+        <field name="manf#">RC0402FR-07330KL</field>
+      </fields>
+      <libsource lib="WL_passive" part="resistor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61848D56</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>330K</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/YAGEO/RC0402FR-07330KL?qs=sGAEpiMZZMvdGkrng054t3pr%252BPE%2FADjswnLf4DA4o0M%3D</datasheet>
+      <fields>
+        <field name="manf#">RC0402FR-07330KL</field>
+      </fields>
+      <libsource lib="WL_passive" part="resistor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6184947F</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>330K</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/YAGEO/RC0402FR-07330KL?qs=sGAEpiMZZMvdGkrng054t3pr%252BPE%2FADjswnLf4DA4o0M%3D</datasheet>
+      <fields>
+        <field name="manf#">RC0402FR-07330KL</field>
+      </fields>
+      <libsource lib="WL_passive" part="resistor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6184A6B6</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>330K</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/YAGEO/RC0402FR-07330KL?qs=sGAEpiMZZMvdGkrng054t3pr%252BPE%2FADjswnLf4DA4o0M%3D</datasheet>
+      <fields>
+        <field name="manf#">RC0402FR-07330KL</field>
+      </fields>
+      <libsource lib="WL_passive" part="resistor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6184A93C</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>330K</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/YAGEO/RC0402FR-07330KL?qs=sGAEpiMZZMvdGkrng054t3pr%252BPE%2FADjswnLf4DA4o0M%3D</datasheet>
+      <fields>
+        <field name="manf#">RC0402FR-07330KL</field>
+      </fields>
+      <libsource lib="WL_passive" part="resistor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6184B197</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>33K</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/Vishay-Dale/CRCW040233K0FKEDC?qs=sGAEpiMZZMvdGkrng054t8r8AhKhXLMmn1SZcpj6lH6AoeRowTHOhg%3D%3D</datasheet>
+      <fields>
+        <field name="Comment">1%</field>
+        <field name="manf#">CRCW040233K0FKEDC</field>
+      </fields>
+      <libsource lib="WL_passive" part="resistor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61867846</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>330K</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/YAGEO/RC0402FR-07330KL?qs=sGAEpiMZZMvdGkrng054t3pr%252BPE%2FADjswnLf4DA4o0M%3D</datasheet>
+      <fields>
+        <field name="manf#">RC0402FR-07330KL</field>
+      </fields>
+      <libsource lib="WL_passive" part="resistor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6188CC1A</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>100n</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/YAGEO/CC0402KRX7R6BB104?qs=sGAEpiMZZMvsSlwiRhF8qj9NgEuXmwzvPrfkKaMreYc%3D</datasheet>
+      <fields>
+        <field name="Comment">10V</field>
+        <field name="manf#">CC0402KRX7R6BB104</field>
+      </fields>
+      <libsource lib="WL_passive" part="capacitor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>619E51A9</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>330K</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/YAGEO/RC0402FR-07330KL?qs=sGAEpiMZZMvdGkrng054t3pr%252BPE%2FADjswnLf4DA4o0M%3D</datasheet>
+      <fields>
+        <field name="manf#">RC0402FR-07330KL</field>
+      </fields>
+      <libsource lib="WL_passive" part="resistor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A9663A</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>100n</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/YAGEO/CC0402KRX7R6BB104?qs=sGAEpiMZZMvsSlwiRhF8qj9NgEuXmwzvPrfkKaMreYc%3D</datasheet>
+      <fields>
+        <field name="Comment">10V</field>
+        <field name="manf#">CC0402KRX7R6BB104</field>
+      </fields>
+      <libsource lib="WL_passive" part="capacitor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6152F2E1</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1M</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/YAGEO/RC0402FR-101ML?qs=sGAEpiMZZMvdGkrng054tz1y1XEHv7sN4rkwU%2FSnxODb%252BSE29wBVoA%3D%3D</datasheet>
+      <fields>
+        <field name="Comment">1%</field>
+        <field name="manf#">RC0402FR-101ML</field>
+      </fields>
+      <libsource lib="WL_passive" part="resistor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615542FD</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1M</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/YAGEO/RC0402FR-101ML?qs=sGAEpiMZZMvdGkrng054tz1y1XEHv7sN4rkwU%2FSnxODb%252BSE29wBVoA%3D%3D</datasheet>
+      <fields>
+        <field name="Comment">1%</field>
+        <field name="manf#">RC0402FR-101ML</field>
+      </fields>
+      <libsource lib="WL_passive" part="resistor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61554C4B</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1M</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/YAGEO/RC0402FR-101ML?qs=sGAEpiMZZMvdGkrng054tz1y1XEHv7sN4rkwU%2FSnxODb%252BSE29wBVoA%3D%3D</datasheet>
+      <fields>
+        <field name="Comment">1%</field>
+        <field name="manf#">RC0402FR-101ML</field>
+      </fields>
+      <libsource lib="WL_passive" part="resistor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6155505E</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/YAGEO/CC0402KRX7R6BB104?qs=sGAEpiMZZMvsSlwiRhF8qj9NgEuXmwzvPrfkKaMreYc%3D</datasheet>
+      <fields>
+        <field name="Comment">10V</field>
+        <field name="manf#">CC0402KRX7R6BB104</field>
+      </fields>
+      <libsource lib="WL_passive" part="capacitor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617667CE</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>0</value>
+      <libsource lib="WL_passive" part="resistor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61910D94</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>1</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/Susumu/RL0510S-1R0-F?qs=CJ5eSktU8izO22KrUyZvUA%3D%3D</datasheet>
+      <fields>
+        <field name="Comment">1%</field>
+        <field name="manf#">RL0510S-1R0-F</field>
+      </fields>
+      <libsource lib="WL_passive" part="resistor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6154967B</tstamp>
+    </comp>
+    <comp ref="IC4">
+      <value>MAX5820</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/Maxim-Integrated/MAX5820MEUA%2bT?qs=wTZ%2FFzl837bwN0QZMc4tIQ%3D%3D</datasheet>
+      <fields>
+        <field name="manf#">MAX5820MEUA+T</field>
+      </fields>
+      <libsource lib="WL_analogICs" part="MAX5820" description="2 channel, 8 bit, I2C, 100uA Iq DAC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6151FEA6</tstamp>
+    </comp>
+    <comp ref="IC5">
+      <value>INA180</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/Texas-Instruments/INA180B1IDBVT?qs=5aG0NVq1C4xF8bWPgC7M%252Bg%3D%3D</datasheet>
+      <fields>
+        <field name="Comment">k=20V/V,Vos=100uV</field>
+        <field name="manf#">INA180B1IDBVT</field>
+      </fields>
+      <libsource lib="WL_analogICs" part="INA180" description="current sense amplifier"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615576F7</tstamp>
+    </comp>
+    <comp ref="IC8">
+      <value>TS880ILT</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/STMicroelectronics/TS880ILT?qs=%2Fha2pyFaduizWcHSinNleJ2hKdwWcGa0wL50NxM8XiA%3D</datasheet>
+      <fields>
+        <field name="manf#">TS880ILT</field>
+      </fields>
+      <libsource lib="WL_analogICs" part="TS880ILT" description="comparator 250nA Iq, prop. delay 2us, OD output"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617256BA</tstamp>
+    </comp>
+    <comp ref="IC6">
+      <value>TLV3201</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/Texas-Instruments/TLV3201AIDBVT?qs=5771e39Rz9Hw%2Fr7F1K1Yhg%3D%3D</datasheet>
+      <fields>
+        <field name="manf#">TLV3201AIDBVT</field>
+      </fields>
+      <libsource lib="WL_analogICs" part="TLV3201" description="40ns propagation delay, 40uA Iq, 1mV Vos, RRI"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616B5A1C</tstamp>
+    </comp>
+    <comp ref="IC7">
+      <value>MAX9619</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/Maxim-Integrated/MAX9619AXT%2bT?qs=sGAEpiMZZMsvbV9l%252Bnr01LY1yexTSm6leTyd8FtXKWs%3D</datasheet>
+      <fields>
+        <field name="manf#">MAX9619AXT+T</field>
+      </fields>
+      <libsource lib="WL_analogICs" part="MAX9619" description="1.4MHz, 10uV Vos, 50pA Ib"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6153C16C</tstamp>
+    </comp>
+    <comp ref="IC2">
+      <value>TPS78230</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/Texas-Instruments/TPS78230DRVT?qs=sGAEpiMZZMtaWn5d0uiADyPAz8KaDEZfVKFLt2HabD4%3D</datasheet>
+      <fields>
+        <field name="Comment">I_Q=1uA,I_SHDN=18nA</field>
+        <field name="manf#">TPS78230DRVT</field>
+      </fields>
+      <libsource lib="WL_PowerManagement" part="TPS78230" description="3.0V LDO 200mA IQ=1uA"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614E24A9</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>MCP73832</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/Microchip-Technology/MCP73832T-2DCI-OT?qs=sGAEpiMZZMsVgcksf1EMUn2DaiboAaDW</datasheet>
+      <fields>
+        <field name="manf#">MCP73832T-2DCI/OT</field>
+      </fields>
+      <libsource lib="WL_PowerManagement" part="MCP7383x" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6148A9B1</tstamp>
+    </comp>
+    <comp ref="SOM1">
+      <value>BGM220PC22HNA</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/Silicon-Labs/BGM220PC22HNA2R?qs=sGAEpiMZZMsjLMBIknjmknKJE5m7ZCsmY31T7u3bzkN0OFRyWv3QeQ%3D%3D</datasheet>
+      <fields>
+        <field name="manf#">BGM220PC22HNA</field>
+      </fields>
+      <libsource lib="WL_SOMs" part="BGM220PC22HNA" description="EFR32BG22 with Cortex-M33, Bluetooth 5.2, 512kB flash, 32kB RAM"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61DEC729</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>TAG connector 2x3</value>
+      <libsource lib="WL_connectors" part="conn_p_2x3" description="generic 2x3 connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61E76FEC</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>47</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/YAGEO/RC0402FR-7W47RL?qs=sGAEpiMZZMvdGkrng054tz1y1XEHv7sNjTUZn5JQhJa3p4Fh43hdWA%3D%3D</datasheet>
+      <fields>
+        <field name="Comment">5%</field>
+        <field name="manf#">RC0402FR-7W47RL</field>
+      </fields>
+      <libsource lib="WL_passive" part="resistor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61EA13B0</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>47</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/YAGEO/RC0402FR-7W47RL?qs=sGAEpiMZZMvdGkrng054tz1y1XEHv7sNjTUZn5JQhJa3p4Fh43hdWA%3D%3D</datasheet>
+      <fields>
+        <field name="Comment">5%</field>
+        <field name="manf#">RC0402FR-7W47RL</field>
+      </fields>
+      <libsource lib="WL_passive" part="resistor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61EA11D8</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>47</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/YAGEO/RC0402FR-7W47RL?qs=sGAEpiMZZMvdGkrng054tz1y1XEHv7sNjTUZn5JQhJa3p4Fh43hdWA%3D%3D</datasheet>
+      <fields>
+        <field name="Comment">5%</field>
+        <field name="manf#">RC0402FR-7W47RL</field>
+      </fields>
+      <libsource lib="WL_passive" part="resistor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61E8BBFB</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100n</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/YAGEO/CC0402KRX7R6BB104?qs=sGAEpiMZZMvsSlwiRhF8qj9NgEuXmwzvPrfkKaMreYc%3D</datasheet>
+      <fields>
+        <field name="Comment">10V</field>
+        <field name="manf#">CC0402KRX7R6BB104</field>
+      </fields>
+      <libsource lib="WL_passive" part="capacitor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61FB8067</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>33K</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/Vishay-Dale/CRCW040233K0FKEDC?qs=sGAEpiMZZMvdGkrng054t8r8AhKhXLMmn1SZcpj6lH6AoeRowTHOhg%3D%3D</datasheet>
+      <fields>
+        <field name="Comment">1%</field>
+        <field name="manf#">CRCW040233K0FKEDC</field>
+      </fields>
+      <libsource lib="WL_passive" part="resistor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615BEEAF</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>33K</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/Vishay-Dale/CRCW040233K0FKEDC?qs=sGAEpiMZZMvdGkrng054t8r8AhKhXLMmn1SZcpj6lH6AoeRowTHOhg%3D%3D</datasheet>
+      <fields>
+        <field name="Comment">1%</field>
+        <field name="manf#">CRCW040233K0FKEDC</field>
+      </fields>
+      <libsource lib="WL_passive" part="resistor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615EC519</tstamp>
+    </comp>
+    <comp ref="LED1">
+      <value>LED</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/Wurth-Elektronik/150060VS75000?qs=LlUlMxKIyB1Q1Bi5mQ%2FKLw%3D%3D</datasheet>
+      <fields>
+        <field name="manf#">150060VS75000</field>
+      </fields>
+      <libsource lib="WL_optical" part="LED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>619F577A</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>330</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/YAGEO/RC0402JR-13330RL?qs=sGAEpiMZZMvdGkrng054tyXF6wqYTHOH6gUR5MIH6C8%3D</datasheet>
+      <fields>
+        <field name="Comment">5%</field>
+        <field name="manf#">RC0402JR-13330RL</field>
+      </fields>
+      <libsource lib="WL_passive" part="resistor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A107F7</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>2k2</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/YAGEO/RC0402FR-072K2P?qs=sGAEpiMZZMvdGkrng054tzomC5y8M3A2M9lgQ11uHoIsULreNCr%2FiQ%3D%3D</datasheet>
+      <fields>
+        <field name="Comment">1%</field>
+        <field name="manf#">RC0402FR-072K2P</field>
+      </fields>
+      <libsource lib="WL_passive" part="resistor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A968E2</tstamp>
+    </comp>
+    <comp ref="IC3">
+      <value>MIC5501</value>
+      <libsource lib="WL_PowerManagement" part="MIC5501" description="low dropout voltage regulator 300mA, 38uA Iq"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A9E6F7</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>330K</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/YAGEO/RC0402FR-07330KL?qs=sGAEpiMZZMvdGkrng054t3pr%252BPE%2FADjswnLf4DA4o0M%3D</datasheet>
+      <fields>
+        <field name="manf#">RC0402FR-07330KL</field>
+      </fields>
+      <libsource lib="WL_passive" part="resistor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AEA244</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>2k2</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/YAGEO/RC0402FR-072K2P?qs=sGAEpiMZZMvdGkrng054tzomC5y8M3A2M9lgQ11uHoIsULreNCr%2FiQ%3D%3D</datasheet>
+      <fields>
+        <field name="Comment">1%</field>
+        <field name="manf#">RC0402FR-072K2P</field>
+      </fields>
+      <libsource lib="WL_passive" part="resistor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B15CAB</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>2k2</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/YAGEO/RC0402FR-072K2P?qs=sGAEpiMZZMvdGkrng054tzomC5y8M3A2M9lgQ11uHoIsULreNCr%2FiQ%3D%3D</datasheet>
+      <fields>
+        <field name="Comment">1%</field>
+        <field name="manf#">RC0402FR-072K2P</field>
+      </fields>
+      <libsource lib="WL_passive" part="resistor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B16E1D</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>PNP_BEC</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/Micro-Commercial-Components-MCC/MMBT5401HE3-TP?qs=HBWAp0VN4RjnaMfqlbDplQ%3D%3D</datasheet>
+      <fields>
+        <field name="manf#">MMBT5401HE3-TP</field>
+      </fields>
+      <libsource lib="WL_transistors" part="PNP_BEC" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B19063</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>NMOS</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/ROHM-Semiconductor/RQ5P010SNTL?qs=%2Fha2pyFadujl6c5cmfQVSoNlAumkc%2FXAJ2dNFA4j1QU%3D</datasheet>
+      <fields>
+        <field name="manf#">RQ5P010SNTL</field>
+      </fields>
+      <libsource lib="WL_transistors" part="NMOS_GSD" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B1AE96</tstamp>
+    </comp>
+    <comp ref="Q7">
+      <value>NMOS</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/ROHM-Semiconductor/RQ5P010SNTL?qs=%2Fha2pyFadujl6c5cmfQVSoNlAumkc%2FXAJ2dNFA4j1QU%3D</datasheet>
+      <fields>
+        <field name="manf#">RQ5P010SNTL</field>
+      </fields>
+      <libsource lib="WL_transistors" part="NMOS_GSD" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B1B5C5</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>NMOS</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/ROHM-Semiconductor/RQ5P010SNTL?qs=%2Fha2pyFadujl6c5cmfQVSoNlAumkc%2FXAJ2dNFA4j1QU%3D</datasheet>
+      <fields>
+        <field name="manf#">RQ5P010SNTL</field>
+      </fields>
+      <libsource lib="WL_transistors" part="NMOS_GSD" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B1BE4E</tstamp>
+    </comp>
+    <comp ref="Q8">
+      <value>NMOS</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/ROHM-Semiconductor/RQ5P010SNTL?qs=%2Fha2pyFadujl6c5cmfQVSoNlAumkc%2FXAJ2dNFA4j1QU%3D</datasheet>
+      <fields>
+        <field name="manf#">RQ5P010SNTL</field>
+      </fields>
+      <libsource lib="WL_transistors" part="NMOS_GSD" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B1C7ED</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>NMOS</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/ROHM-Semiconductor/RQ5P010SNTL?qs=%2Fha2pyFadujl6c5cmfQVSoNlAumkc%2FXAJ2dNFA4j1QU%3D</datasheet>
+      <fields>
+        <field name="manf#">RQ5P010SNTL</field>
+      </fields>
+      <libsource lib="WL_transistors" part="NMOS_GSD" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B1D1A2</tstamp>
+    </comp>
+    <comp ref="Q9">
+      <value>NMOS</value>
+      <datasheet>https://pl.mouser.com/ProductDetail/ROHM-Semiconductor/RQ5P010SNTL?qs=%2Fha2pyFadujl6c5cmfQVSoNlAumkc%2FXAJ2dNFA4j1QU%3D</datasheet>
+      <fields>
+        <field name="manf#">RQ5P010SNTL</field>
+      </fields>
+      <libsource lib="WL_transistors" part="NMOS_GSD" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B1D8E6</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="WL_PowerManagement" part="MCP7383x">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">MCP7383x</field>
+      </fields>
+      <pins>
+        <pin num="1" name="STAT" type="3state"/>
+        <pin num="2" name="VSS" type="power_in"/>
+        <pin num="3" name="VBAT" type="power_in"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="PROG" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="WL_PowerManagement" part="MIC5501">
+      <description>low dropout voltage regulator 300mA, 38uA Iq</description>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">MIC5501</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+        <pin num="5" name="VOUT" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="WL_PowerManagement" part="TPS78230">
+      <description>3.0V LDO 200mA IQ=1uA</description>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">TPS78230</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="power_in"/>
+        <pin num="2" name="NC" type="passive"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="EN" type="input"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="IN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="WL_SOMs" part="BGM220PC22HNA">
+      <description>EFR32BG22 with Cortex-M33, Bluetooth 5.2, 512kB flash, 32kB RAM</description>
+      <docs>https://www.silabs.com/wireless/bluetooth/efr32bg22-series-2-modules/device.bgm220pc22hna</docs>
+      <fields>
+        <field name="Reference">SOM</field>
+        <field name="Value">BGM220PC22HNA</field>
+        <field name="manf#">BGM220PC22HNA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="PB04" type="BiDi"/>
+        <pin num="3" name="PB03" type="BiDi"/>
+        <pin num="4" name="PB02" type="BiDi"/>
+        <pin num="5" name="PB01" type="BiDi"/>
+        <pin num="6" name="PB00" type="BiDi"/>
+        <pin num="7" name="PA00" type="BiDi"/>
+        <pin num="8" name="PA01" type="BiDi"/>
+        <pin num="9" name="PA02" type="BiDi"/>
+        <pin num="10" name="PA03" type="BiDi"/>
+        <pin num="11" name="PA04" type="BiDi"/>
+        <pin num="12" name="GND" type="power_in"/>
+        <pin num="13" name="VDD" type="power_in"/>
+        <pin num="14" name="PA05" type="BiDi"/>
+        <pin num="15" name="PA06" type="BiDi"/>
+        <pin num="16" name="PA07" type="BiDi"/>
+        <pin num="17" name="PA08" type="BiDi"/>
+        <pin num="18" name="PD03" type="BiDi"/>
+        <pin num="19" name="PD02" type="BiDi"/>
+        <pin num="20" name="GND" type="power_in"/>
+        <pin num="21" name="NC" type="NotConnected"/>
+        <pin num="22" name="PC00" type="BiDi"/>
+        <pin num="23" name="PC01" type="BiDi"/>
+        <pin num="24" name="PC02" type="BiDi"/>
+        <pin num="25" name="PC03" type="BiDi"/>
+        <pin num="26" name="PC04" type="BiDi"/>
+        <pin num="27" name="PC05" type="BiDi"/>
+        <pin num="28" name="PC06" type="BiDi"/>
+        <pin num="29" name="PC07" type="BiDi"/>
+        <pin num="30" name="RESETn" type="input"/>
+        <pin num="31" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="WL_analogICs" part="INA180">
+      <description>current sense amplifier</description>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">INA180</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="~" type="power_in"/>
+        <pin num="3" name="-" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="WL_analogICs" part="MAX5820">
+      <description>2 channel, 8 bit, I2C, 100uA Iq DAC</description>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">MAX5820</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="power_in"/>
+        <pin num="2" name="~" type="power_in"/>
+        <pin num="3" name="ADD" type="passive"/>
+        <pin num="4" name="SCL" type="BiDi"/>
+        <pin num="5" name="SDA" type="BiDi"/>
+        <pin num="6" name="REF" type="passive"/>
+        <pin num="7" name="OUTA" type="passive"/>
+        <pin num="8" name="OUTB" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="WL_analogICs" part="MAX9619">
+      <description>1.4MHz, 10uV Vos, 50pA Ib</description>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">MAX9619</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="~" type="power_in"/>
+        <pin num="3" name="-" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="SHDN" type="input"/>
+        <pin num="6" name="~" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="WL_analogICs" part="TLV3201">
+      <description>40ns propagation delay, 40uA Iq, 1mV Vos, RRI</description>
+      <docs>https://pl.mouser.com/ProductDetail/Texas-Instruments/TLV3201AIDBVT?qs=5771e39Rz9Hw%2Fr7F1K1Yhg%3D%3D</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">TLV3201</field>
+        <field name="manf#">TLV3201AIDBVT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="power_in"/>
+        <pin num="3" name="+" type="passive"/>
+        <pin num="4" name="-" type="passive"/>
+        <pin num="5" name="~" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="WL_analogICs" part="TS880ILT">
+      <description>comparator 250nA Iq, prop. delay 2us, OD output</description>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">TS880ILT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="power_in"/>
+        <pin num="3" name="+" type="passive"/>
+        <pin num="4" name="-" type="passive"/>
+        <pin num="5" name="~" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="WL_connectors" part="USB_B_micro">
+      <description>micro usb type b socket</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_micro</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_out"/>
+        <pin num="2" name="D-" type="BiDi"/>
+        <pin num="3" name="D+" type="BiDi"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="SHLD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="WL_connectors" part="conn_p_1x1">
+      <description>single plug connector</description>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">conn_p_1x1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="WL_connectors" part="conn_p_2x3">
+      <description>generic 2x3 connector</description>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">conn_p_2x3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="WL_diodes" part="Schottky_diode">
+      <description>Schottky diode</description>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">Schottky_diode</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="WL_diodes" part="TVS_diode">
+      <description>generic tvs diode symbol</description>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">TVS_diode</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="WL_optical" part="LED">
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="WL_passive" part="capacitor">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="WL_passive" part="capacitor_polarised">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">capacitor_polarised</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="WL_passive" part="inductor">
+      <description>inductor, coil</description>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">inductor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="WL_passive" part="resistor">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="WL_power" part="Battery">
+      <description>Battery symbol</description>
+      <fields>
+        <field name="Reference">BAT</field>
+        <field name="Value">Battery</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="power_in"/>
+        <pin num="2" name="-" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="WL_transistors" part="NMOS_GSD">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">NMOS_GSD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="WL_transistors" part="PNP_BEC">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">PNP_BEC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="passive"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="WL_PowerManagement">
+      <uri>C:\Program Files\KiCad\share\kicad\library/WL_symbols/WL_PowerManagement.lib</uri>
+    </library>
+    <library logical="WL_SOMs">
+      <uri>C:\Program Files\KiCad\share\kicad\library/WL_symbols/WL_SOMs.lib</uri>
+    </library>
+    <library logical="WL_analogICs">
+      <uri>C:\Program Files\KiCad\share\kicad\library/WL_symbols/WL_analogICs.lib</uri>
+    </library>
+    <library logical="WL_connectors">
+      <uri>C:\Program Files\KiCad\share\kicad\library/WL_symbols/WL_connectors.lib</uri>
+    </library>
+    <library logical="WL_diodes">
+      <uri>C:\Program Files\KiCad\share\kicad\library/WL_symbols/WL_diodes.lib</uri>
+    </library>
+    <library logical="WL_optical">
+      <uri>C:\Program Files\KiCad\share\kicad\library/WL_symbols/WL_optical.lib</uri>
+    </library>
+    <library logical="WL_passive">
+      <uri>C:\Program Files\KiCad\share\kicad\library/WL_symbols/WL_passive.lib</uri>
+    </library>
+    <library logical="WL_power">
+      <uri>C:\Program Files\KiCad\share\kicad\library/WL_symbols/WL_power.lib</uri>
+    </library>
+    <library logical="WL_transistors">
+      <uri>C:\Program Files\KiCad\share\kicad\library/WL_symbols/WL_transistors.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/SOM_BattStat">
+      <node ref="SOM1" pin="2"/>
+      <node ref="IC1" pin="1"/>
+    </net>
+    <net code="2" name="Net-(C13-Pad1)">
+      <node ref="C13" pin="1"/>
+      <node ref="C9" pin="2"/>
+      <node ref="Q5" pin="3"/>
+    </net>
+    <net code="3" name="Net-(IC4-Pad3)">
+      <node ref="IC4" pin="3"/>
+    </net>
+    <net code="4" name="Net-(IC5-Pad2)">
+      <node ref="IC5" pin="2"/>
+    </net>
+    <net code="5" name="Net-(IC5-Pad4)">
+      <node ref="R18" pin="2"/>
+      <node ref="IC5" pin="4"/>
+    </net>
+    <net code="6" name="Net-(R23-Pad2)">
+      <node ref="R23" pin="2"/>
+    </net>
+    <net code="7" name="Net-(IC5-Pad3)">
+      <node ref="R20" pin="2"/>
+      <node ref="IC5" pin="3"/>
+    </net>
+    <net code="8" name="Net-(IC1-Pad5)">
+      <node ref="IC1" pin="5"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="9" name="Net-(IC4-Pad7)">
+      <node ref="IC6" pin="3"/>
+      <node ref="IC4" pin="7"/>
+    </net>
+    <net code="10" name="Net-(SOM1-Pad11)">
+      <node ref="SOM1" pin="11"/>
+    </net>
+    <net code="11" name="Net-(IC2-Pad3)">
+      <node ref="IC2" pin="3"/>
+      <node ref="IC2" pin="5"/>
+    </net>
+    <net code="12" name="Net-(SOM1-Pad20)">
+      <node ref="SOM1" pin="20"/>
+    </net>
+    <net code="13" name="Net-(SOM1-Pad21)">
+      <node ref="SOM1" pin="21"/>
+    </net>
+    <net code="14" name="Net-(LED1-Pad1)">
+      <node ref="SOM1" pin="22"/>
+      <node ref="LED1" pin="1"/>
+    </net>
+    <net code="15" name="/SOM_CnvCmp">
+      <node ref="IC8" pin="1"/>
+      <node ref="SOM1" pin="6"/>
+    </net>
+    <net code="16" name="Net-(IC4-Pad8)">
+      <node ref="IC4" pin="8"/>
+      <node ref="IC8" pin="4"/>
+    </net>
+    <net code="17" name="/SOM_IntgCmp">
+      <node ref="IC6" pin="1"/>
+      <node ref="SOM1" pin="25"/>
+    </net>
+    <net code="18" name="Net-(IC7-Pad6)">
+      <node ref="IC7" pin="6"/>
+    </net>
+    <net code="19" name="Net-(C6-Pad1)">
+      <node ref="IC2" pin="1"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="20" name="Net-(IC2-Pad2)">
+      <node ref="IC2" pin="2"/>
+    </net>
+    <net code="21" name="Net-(C19-Pad2)">
+      <node ref="C19" pin="2"/>
+    </net>
+    <net code="22" name="Net-(IC8-Pad3)">
+      <node ref="IC8" pin="3"/>
+      <node ref="R8" pin="2"/>
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="23" name="Net-(IC4-Pad2)">
+      <node ref="IC4" pin="2"/>
+    </net>
+    <net code="24" name="Net-(C19-Pad1)">
+      <node ref="C19" pin="1"/>
+    </net>
+    <net code="25" name="Net-(IC4-Pad1)">
+      <node ref="IC4" pin="1"/>
+      <node ref="IC4" pin="6"/>
+    </net>
+    <net code="26" name="Net-(C17-Pad1)">
+      <node ref="C17" pin="1"/>
+    </net>
+    <net code="27" name="Net-(IC8-Pad2)">
+      <node ref="IC8" pin="2"/>
+    </net>
+    <net code="28" name="Net-(IC8-Pad5)">
+      <node ref="IC8" pin="5"/>
+    </net>
+    <net code="29" name="Net-(C17-Pad2)">
+      <node ref="C17" pin="2"/>
+    </net>
+    <net code="30" name="Net-(Q2-Pad2)">
+      <node ref="Q2" pin="2"/>
+      <node ref="R13" pin="2"/>
+    </net>
+    <net code="31" name="Net-(C10-Pad1)">
+      <node ref="C10" pin="1"/>
+      <node ref="L1" pin="1"/>
+      <node ref="C11" pin="1"/>
+    </net>
+    <net code="32" name="Net-(C4-Pad2)">
+      <node ref="C4" pin="2"/>
+    </net>
+    <net code="33" name="/SOM_BattMeas">
+      <node ref="R2" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="SOM1" pin="4"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="34" name="Net-(R4-Pad2)">
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="35" name="/SOM_IntgRst">
+      <node ref="R27" pin="1"/>
+      <node ref="SOM1" pin="23"/>
+    </net>
+    <net code="36" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="37" name="Net-(IC1-Pad2)">
+      <node ref="IC1" pin="2"/>
+    </net>
+    <net code="38" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="39" name="Net-(C3-Pad2)">
+      <node ref="C3" pin="2"/>
+    </net>
+    <net code="40" name="Net-(BAT1-Pad2)">
+      <node ref="BAT1" pin="2"/>
+    </net>
+    <net code="41" name="/SOM_Shdn">
+      <node ref="IC7" pin="5"/>
+      <node ref="SOM1" pin="24"/>
+    </net>
+    <net code="42" name="Net-(SOM1-Pad3)">
+      <node ref="SOM1" pin="3"/>
+    </net>
+    <net code="43" name="Net-(SOM1-Pad5)">
+      <node ref="SOM1" pin="5"/>
+    </net>
+    <net code="44" name="Net-(SOM1-Pad26)">
+      <node ref="SOM1" pin="26"/>
+    </net>
+    <net code="45" name="Net-(SOM1-Pad27)">
+      <node ref="SOM1" pin="27"/>
+    </net>
+    <net code="46" name="Net-(SOM1-Pad28)">
+      <node ref="SOM1" pin="28"/>
+    </net>
+    <net code="47" name="/SOM_CnvPwm">
+      <node ref="SOM1" pin="7"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="48" name="Net-(R9-Pad1)">
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="49" name="Net-(LED1-Pad2)">
+      <node ref="LED1" pin="2"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="50" name="/SOM_RESETn">
+      <node ref="C1" pin="2"/>
+      <node ref="P1" pin="3"/>
+      <node ref="SOM1" pin="30"/>
+    </net>
+    <net code="51" name="/SOM_PwrEn">
+      <node ref="SOM1" pin="29"/>
+      <node ref="R24" pin="2"/>
+      <node ref="IC3" pin="3"/>
+    </net>
+    <net code="52" name="/SOM_El1H">
+      <node ref="R12" pin="2"/>
+      <node ref="SOM1" pin="14"/>
+    </net>
+    <net code="53" name="/SOM_El1L">
+      <node ref="R11" pin="2"/>
+      <node ref="SOM1" pin="15"/>
+    </net>
+    <net code="54" name="/SOM_El2H">
+      <node ref="SOM1" pin="16"/>
+      <node ref="R25" pin="2"/>
+    </net>
+    <net code="55" name="/SOM_EL2L">
+      <node ref="SOM1" pin="17"/>
+      <node ref="R26" pin="2"/>
+    </net>
+    <net code="56" name="Net-(IC5-Pad1)">
+      <node ref="IC5" pin="1"/>
+      <node ref="R20" pin="1"/>
+      <node ref="Q8" pin="2"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="R31" pin="2"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="57" name="Net-(IC3-Pad4)">
+      <node ref="IC3" pin="4"/>
+    </net>
+    <net code="58" name="Net-(IC3-Pad2)">
+      <node ref="IC3" pin="2"/>
+      <node ref="R24" pin="1"/>
+    </net>
+    <net code="59" name="Net-(Q4-Pad3)">
+      <node ref="R35" pin="1"/>
+      <node ref="Q4" pin="3"/>
+    </net>
+    <net code="60" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1"/>
+      <node ref="R35" pin="2"/>
+    </net>
+    <net code="61" name="Net-(Q7-Pad3)">
+      <node ref="Q7" pin="3"/>
+      <node ref="R36" pin="1"/>
+    </net>
+    <net code="62" name="Net-(Q5-Pad1)">
+      <node ref="Q5" pin="1"/>
+      <node ref="R36" pin="2"/>
+    </net>
+    <net code="63" name="Net-(P1-Pad5)">
+      <node ref="P1" pin="5"/>
+    </net>
+    <net code="64" name="Net-(SOM1-Pad1)">
+      <node ref="SOM1" pin="1"/>
+    </net>
+    <net code="65" name="Net-(P1-Pad1)">
+      <node ref="P1" pin="1"/>
+    </net>
+    <net code="66" name="Net-(P1-Pad2)">
+      <node ref="R5" pin="1"/>
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="67" name="Net-(P1-Pad4)">
+      <node ref="P1" pin="4"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="68" name="Net-(P1-Pad6)">
+      <node ref="P1" pin="6"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="69" name="Net-(R7-Pad2)">
+      <node ref="SOM1" pin="10"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="70" name="Net-(R5-Pad2)">
+      <node ref="SOM1" pin="8"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="71" name="Net-(R6-Pad2)">
+      <node ref="SOM1" pin="9"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="72" name="Net-(SOM1-Pad12)">
+      <node ref="SOM1" pin="12"/>
+    </net>
+    <net code="73" name="/SOM_SDA">
+      <node ref="SOM1" pin="19"/>
+      <node ref="IC4" pin="5"/>
+      <node ref="R29" pin="2"/>
+    </net>
+    <net code="74" name="/SOM_SCL">
+      <node ref="IC4" pin="4"/>
+      <node ref="R28" pin="2"/>
+      <node ref="SOM1" pin="18"/>
+    </net>
+    <net code="75" name="Net-(R29-Pad1)">
+      <node ref="R29" pin="1"/>
+    </net>
+    <net code="76" name="Net-(R28-Pad1)">
+      <node ref="R28" pin="1"/>
+    </net>
+    <net code="77" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1"/>
+      <node ref="SOM1" pin="31"/>
+    </net>
+    <net code="78" name="Net-(SOM1-Pad13)">
+      <node ref="SOM1" pin="13"/>
+    </net>
+    <net code="79" name="Net-(C11-Pad2)">
+      <node ref="C11" pin="2"/>
+    </net>
+    <net code="80" name="Net-(C10-Pad2)">
+      <node ref="C10" pin="2"/>
+    </net>
+    <net code="81" name="Net-(D2-Pad1)">
+      <node ref="Q2" pin="3"/>
+      <node ref="L1" pin="2"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="82" name="Net-(C9-Pad1)">
+      <node ref="R8" pin="1"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="D2" pin="2"/>
+      <node ref="C9" pin="1"/>
+    </net>
+    <net code="83" name="Net-(Q2-Pad1)">
+      <node ref="R10" pin="1"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="84" name="Net-(C8-Pad1)">
+      <node ref="IC3" pin="5"/>
+      <node ref="C8" pin="1"/>
+    </net>
+    <net code="85" name="Net-(Q3-Pad1)">
+      <node ref="Q3" pin="1"/>
+      <node ref="R15" pin="1"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="86" name="Net-(Q4-Pad1)">
+      <node ref="Q4" pin="1"/>
+      <node ref="R16" pin="1"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="87" name="Net-(Q7-Pad2)">
+      <node ref="Q7" pin="2"/>
+      <node ref="R30" pin="2"/>
+    </net>
+    <net code="88" name="Net-(C13-Pad2)">
+      <node ref="C13" pin="2"/>
+    </net>
+    <net code="89" name="Net-(Q4-Pad2)">
+      <node ref="R16" pin="2"/>
+      <node ref="Q4" pin="2"/>
+    </net>
+    <net code="90" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="91" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="92" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="93" name="Net-(J1-Pad5)">
+      <node ref="J1" pin="6"/>
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="94" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="IC1" pin="4"/>
+    </net>
+    <net code="95" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="96" name="Net-(BAT1-Pad1)">
+      <node ref="BAT1" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="IC1" pin="3"/>
+    </net>
+    <net code="97" name="Net-(C5-Pad1)">
+      <node ref="IC2" pin="4"/>
+      <node ref="C5" pin="1"/>
+      <node ref="IC2" pin="6"/>
+    </net>
+    <net code="98" name="Net-(C6-Pad2)">
+      <node ref="C6" pin="2"/>
+    </net>
+    <net code="99" name="Net-(C7-Pad1)">
+      <node ref="C7" pin="1"/>
+      <node ref="IC3" pin="1"/>
+    </net>
+    <net code="100" name="Net-(C8-Pad2)">
+      <node ref="C8" pin="2"/>
+    </net>
+    <net code="101" name="Net-(C5-Pad2)">
+      <node ref="C5" pin="2"/>
+    </net>
+    <net code="102" name="Net-(C7-Pad2)">
+      <node ref="C7" pin="2"/>
+    </net>
+    <net code="103" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="104" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1"/>
+    </net>
+    <net code="105" name="Net-(D3-Pad2)">
+      <node ref="Q1" pin="2"/>
+      <node ref="Q3" pin="3"/>
+      <node ref="P2" pin="1"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="106" name="Net-(IC7-Pad2)">
+      <node ref="IC7" pin="2"/>
+    </net>
+    <net code="107" name="Net-(C14-Pad2)">
+      <node ref="C14" pin="2"/>
+    </net>
+    <net code="108" name="Net-(D4-Pad2)">
+      <node ref="P3" pin="1"/>
+      <node ref="D4" pin="2"/>
+      <node ref="Q5" pin="2"/>
+      <node ref="Q8" pin="3"/>
+    </net>
+    <net code="109" name="Net-(C14-Pad1)">
+      <node ref="C14" pin="1"/>
+    </net>
+    <net code="110" name="Net-(C15-Pad2)">
+      <node ref="C15" pin="2"/>
+    </net>
+    <net code="111" name="Net-(C15-Pad1)">
+      <node ref="C15" pin="1"/>
+    </net>
+    <net code="112" name="Net-(Q9-Pad2)">
+      <node ref="R34" pin="2"/>
+      <node ref="Q9" pin="2"/>
+    </net>
+    <net code="113" name="Net-(Q7-Pad1)">
+      <node ref="R25" pin="1"/>
+      <node ref="Q7" pin="1"/>
+      <node ref="R30" pin="1"/>
+    </net>
+    <net code="114" name="Net-(R14-Pad2)">
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="115" name="Net-(Q6-Pad1)">
+      <node ref="R27" pin="2"/>
+      <node ref="Q6" pin="1"/>
+      <node ref="R32" pin="1"/>
+      <node ref="Q9" pin="1"/>
+      <node ref="R34" pin="1"/>
+    </net>
+    <net code="116" name="Net-(R22-Pad2)">
+      <node ref="R22" pin="2"/>
+    </net>
+    <net code="117" name="Net-(C16-Pad2)">
+      <node ref="C16" pin="2"/>
+    </net>
+    <net code="118" name="Net-(C16-Pad1)">
+      <node ref="C16" pin="1"/>
+    </net>
+    <net code="119" name="Net-(IC6-Pad2)">
+      <node ref="IC6" pin="2"/>
+    </net>
+    <net code="120" name="Net-(IC6-Pad5)">
+      <node ref="IC6" pin="5"/>
+    </net>
+    <net code="121" name="Net-(R32-Pad2)">
+      <node ref="R32" pin="2"/>
+    </net>
+    <net code="122" name="Net-(Q8-Pad1)">
+      <node ref="R26" pin="1"/>
+      <node ref="Q8" pin="1"/>
+      <node ref="R31" pin="1"/>
+    </net>
+    <net code="123" name="Net-(C18-Pad1)">
+      <node ref="IC7" pin="1"/>
+      <node ref="R33" pin="1"/>
+      <node ref="Q6" pin="2"/>
+      <node ref="C18" pin="1"/>
+    </net>
+    <net code="124" name="Net-(Q6-Pad3)">
+      <node ref="Q6" pin="3"/>
+      <node ref="R23" pin="1"/>
+      <node ref="R21" pin="1"/>
+    </net>
+    <net code="125" name="Net-(C12-Pad1)">
+      <node ref="IC6" pin="4"/>
+      <node ref="R22" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="IC7" pin="4"/>
+    </net>
+    <net code="126" name="Net-(C12-Pad2)">
+      <node ref="IC7" pin="3"/>
+      <node ref="Q9" pin="3"/>
+      <node ref="C12" pin="2"/>
+      <node ref="R19" pin="1"/>
+    </net>
+    <net code="127" name="Net-(C18-Pad2)">
+      <node ref="C18" pin="2"/>
+    </net>
+    <net code="128" name="Net-(R33-Pad2)">
+      <node ref="R33" pin="2"/>
+    </net>
+    <net code="129" name="Net-(IC5-Pad5)">
+      <node ref="R17" pin="1"/>
+      <node ref="IC5" pin="5"/>
+    </net>
+    <net code="130" name="Net-(R17-Pad2)">
+      <node ref="R18" pin="1"/>
+      <node ref="R17" pin="2"/>
+      <node ref="R19" pin="2"/>
+      <node ref="R21" pin="2"/>
+    </net>
+  </nets>
+</export>

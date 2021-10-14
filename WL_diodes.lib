@@ -1,0 +1,21 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# TVS_diode
+#
+DEF TVS_diode D 0 0 N N 1 F N
+F0 "D" -100 75 40 H V L CNN
+F1 "TVS_diode" -100 -75 40 H V L CNN
+F2 "" 0 0 40 H I C CNN
+F3 "" 0 0 40 H I C CNN
+DRAW
+P 2 0 1 0 30 0 50 0 N
+P 2 0 1 0 30 30 20 40 N
+P 3 0 1 0 30 30 30 -30 40 -40 N
+P 6 0 1 0 -50 0 -30 0 -30 40 30 0 -30 -40 -30 0 N
+X A 1 -100 0 50 R 30 30 1 1 P
+X C 2 100 0 50 L 30 30 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
