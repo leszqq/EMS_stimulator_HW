@@ -272,25 +272,6 @@ X ~ 1 0 -50 50 U 25 30 1 1 P
 ENDDRAW
 ENDDEF
 #
-# WL_diodes_Schottky_diode
-#
-DEF WL_diodes_Schottky_diode D 0 0 Y N 1 F N
-F0 "D" -125 50 40 H V L CNN
-F1 "WL_diodes_Schottky_diode" -125 -75 40 H V L CNN
-F2 "" 0 0 40 H I C CNN
-F3 "" 0 0 40 H I C CNN
-DRAW
-P 2 0 1 0 -50 0 -30 0 N
-P 2 0 1 0 30 40 30 -40 N
-P 2 0 1 0 50 0 30 0 N
-P 3 0 1 0 30 -40 20 -40 20 -30 N
-P 3 0 1 0 30 40 40 40 40 30 N
-P 5 0 1 0 -30 0 -30 40 30 0 -30 -40 -30 0 N
-X A 1 -100 0 50 R 25 30 1 1 P
-X C 2 100 0 50 L 25 30 1 1 P
-ENDDRAW
-ENDDEF
-#
 # WL_diodes_TVS_diode
 #
 DEF WL_diodes_TVS_diode D 0 0 Y N 1 F N

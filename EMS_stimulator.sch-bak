@@ -1939,7 +1939,7 @@ F 3 "https://pl.mouser.com/ProductDetail/Texas-Instruments/INA180B1IDBVT?qs=5aG0
 F 4 "k=20V/V,Vos=100uV" H 7150 4100 40  0001 L CNN "Comment"
 F 5 "INA180B1IDBVT" H 7100 4250 40  0001 C CNN "manf#"
 	1    7150 4250
-	1    0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L WL_analogICs:MAX5820 IC4
@@ -2984,10 +2984,10 @@ F 5 "KMS231GLFS" H 9250 1700 50  0001 C CNN "manf#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L WL_power:+3V0B #PWR?
+L WL_power:+3V0B #PWR0168
 U 1 1 6161525F
 P 8500 2450
-F 0 "#PWR?" H 8500 2550 30  0001 C CNN
+F 0 "#PWR0168" H 8500 2550 30  0001 C CNN
 F 1 "+3V0B" H 8500 2550 30  0000 C CNN
 F 2 "" H 8500 2450 30  0001 C CNN
 F 3 "" H 8500 2450 30  0001 C CNN
